@@ -1,0 +1,5 @@
+@import url("styles/root.css");
+
+.message {
+    padding: var(--padding);
+}

@@ -1,0 +1,39 @@
+.App {
+  /*background-color: #292c32;*/
+  background: darkcyan;
+  color: #e0e4e9;
+}
+.App__wrapper {
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template-areas: "header header header" "navigation content content";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 1fr 8fr;
+  /*grid-gap: 10px;*/
+
+  /*max-width: 1400px;*/
+  min-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+
+  position: relative;
+}
+
+.mainContainer {
+  grid-area: content;
+
+  background: darkcyan;
+  /*box-shadow: inset 4px 0 5px 0 #ffffff;*/
+  /*z-index: -2*/
+;
+
+  height: calc(100vh - 60px);
+  position: relative;
+}
+
+.main {
+  /*height: calc(100vh - 60px);*/
+  /*overflow: auto;*/
+}

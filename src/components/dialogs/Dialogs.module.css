@@ -1,0 +1,31 @@
+@import url("styles/root.css");
+.dialogs_section{}
+.dialogs {
+    display: grid;
+    grid-template: 1fr / 2fr 20fr;
+    padding: 20px 10px;
+
+    /*height: calc(100vh - 60px);*/
+    overflow: auto;
+}
+
+.dialogItems {
+    /*padding: var(--padding);*/
+}
+
+.dialog {
+    padding: var(--padding);
+}
+
+.dialogItems .active {
+    color: #05e511;
+    font-weight: 800;
+}
+
+.messages {
+    /*padding: var(--padding);*/
+}
+
+.message {
+    padding: var(--padding);
+}

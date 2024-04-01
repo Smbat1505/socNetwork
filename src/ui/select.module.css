@@ -1,0 +1,19 @@
+.selectWrapper {
+  margin-bottom: 30px;
+}
+.selectForm {
+}
+.selectLabel {
+  padding-right: 10px;
+}
+.select {
+  width: auto;
+  padding: 1px 5px;
+  border-radius: 5px;
+  border: none;
+  position: relative;
+}
+.selectOption {
+  position: absolute;
+  left: 10px;
+}

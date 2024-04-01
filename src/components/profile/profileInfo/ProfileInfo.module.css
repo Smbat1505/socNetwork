@@ -1,0 +1,25 @@
+.section_screen {
+}
+
+.sectionImg {
+    /*width: 100%;*/
+    /*height: 400px;*/
+    /*background: black;*/
+    /*margin-bottom: 100px;*/
+}
+
+.imgBlock {
+}
+
+.imgBlock img {
+ filter: brightness(30%);
+    width: 100%;
+    height: 300px
+}
+
+.section_description {
+    padding: var(--padding);
+}
+
+.sectionAvatDescr {
+}

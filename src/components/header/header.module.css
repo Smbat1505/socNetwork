@@ -1,0 +1,46 @@
+.headerWrapper {
+  grid-area: header;
+  background-color: #333;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  text-align: center;
+  height: 100%;
+}
+
+.logo > img {
+  /*box-sizing: border-box;*/
+  pointer-events: none;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.loginBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 60px;
+  height: 30px;
+
+  position: absolute;
+  right: 20px;
+
+  color: #f0f0f0;
+}
+
+.loginBtn a {
+  width: 100%;
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 0 0 3px #ffffff;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+
+.loginBtn a:hover {
+  box-shadow: 0 0 3px #05e511;
+  background: #20414f;
+}

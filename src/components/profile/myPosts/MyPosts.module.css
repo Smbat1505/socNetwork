@@ -1,0 +1,53 @@
+.section_MyPosts {
+  /*    hh  */
+}
+
+.myPosts, .myPosts h2 {
+  padding: var(--padding);
+}
+
+.textarea_box {
+  display: inline-flex;
+}
+
+.textarea {
+  max-width: 350px;
+  max-height: 100px;
+  width: 300px; /* Set the width */
+  height: 40px; /* Set the height */
+  padding: 3px 7px;
+  border-radius: 5px;
+  border: none;
+  /*text-align: center;*/
+  /*vertical-align: middle;*/
+}
+.textarea::placeholder {
+  /*text-align: left;*/
+
+  font-size: 18px;
+  /*text-shadow: 0 0 1px #0b31d5;*/
+  /*color: #05e511;*/
+}
+
+.addPostBtn {
+  height: 40px;
+  margin-left: 15px;
+  box-shadow: 0 0 5px 0 #000000;
+}
+
+.newPost {
+  /* Styles for new post */
+}
+.section_posts{
+
+}
+.section_posts section{
+  padding: 40px 0;
+}
+.posts {
+  /* Styles for posts */
+}
+
+.post {
+  /* Styles for post */
+}
