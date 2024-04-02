@@ -7,6 +7,7 @@ interface DialogProps {
   name: string
 }
 // test
+// test 2
 export const DialogsItem: React.FC<DialogProps> = (props) => {
   const { id, name } = props
   const path = `/dialogs/${id}#${name}`
