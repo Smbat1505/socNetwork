@@ -8,8 +8,6 @@ import { Profile } from "components/profile"
 import { BrowserRouter, Route } from "react-router-dom"
 import { Post, State } from "index"
 
-/*{ id: string; message: string; likeCount: number }[] }*/
-
 export type PropsType = State
 function App(props: PropsType) {
   const { posts, userData, messages } = props
@@ -18,6 +16,7 @@ function App(props: PropsType) {
       <div className="App">
         <div className={"App__wrapper"}>
           <Header />
+
           <Navigation />
           {/*<Profile />*/}
           <div className="mainContainer">
